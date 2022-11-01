@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="layout.css" type="text/css" />
+    <title>Chat_mssu</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="loginForm">
+        <h3>Ten ban la gi:</h3>
+        <input type="text " name="" id="txtUsername" />
+        <input type="button" name="" id="btnRegister" value="Register" />
+      </div>
+      <div id="chatForm">
+        <div id="left">
+          <div id="boxTitle">User online</div>
+          <div id="boxContent">
+            user dang online
+            <div id="userOnline">vet</div>
+            <div id="userOnline">ha</div>
+            <div id="userOnline">hung</div>
+            <div id="userOnline">manh</div>
+          </div>
+        </div>
+        <div id="right">
+          <div id="sayHi">
+            Hello vet
+            <span id="currentUser">vet</span>
+            <input type="button" id="btnLogout" / value="Logout">
+          </div>
+          <div id="listMessages">cxvcx</div>
+          <input type="text" id="txtMessage" />
+          <input type="button" id="btnSendmesage" value="Send" />
+        </div>
+      </div>
+    </div>
+    <style>
+      body {
+        background-color: #05adf8;
+      }
+      #wrapper {
+        width: 600px;
+        margin: auto;
+      }
+      #txtUsername {
+        background-color: transparent;
+        border: solid 1px black;
+        background-color: bisque;
+      }
+      #left,
+      #right {
+        min-height: 300px;
+      }
+      #left {
+        width: 30%;
+        float: left;
+        background-color: blanchedalmond;
+      }
+      #right {
+        right: 70%;
+        float: right;
+        background-color: chartreuse;
+      }
+      #boxTitle {
+        font-weight: bold;
+        border: solid 1px black;
+        padding: 5px;
+        text-align: center;
+      }
+      #boxContent {
+        border: solid 1px black;
+        border-top: none;
+        padding: 5px;
+        text-align: center;
+      }
+      #sayHi {
+        text-align: center;
+      }
+      #listMessages {
+        height: 250px;
+        background-color: black;
+        margin-bottom: 15px;
+      }
+      #txtMessage {
+        background-color: transparent;
+        border: solid 1px black;
+      }
+
+      /* #loginForm,
+    #chatForm {
+      display: none;
+    } */
+    </style>
+  </body>
+  /*
+  <!-- <script src="jquery.js"></script>
+  <script src="xuli.js"></script> -->
+  */
+</html>
